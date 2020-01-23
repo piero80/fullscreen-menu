@@ -1,9 +1,6 @@
 $(document).ready(function() {
   $(".menu-btn").click(function() {
     $(".overlay").fadeToggle(200);
-    $(this)
-      .toggleClass("btn-open")
-      .toggleClass("btn-close");
   });
   $(".remove-icon-mobile").click(function() {
     $(this)
