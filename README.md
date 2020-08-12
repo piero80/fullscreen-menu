@@ -21,3 +21,4 @@
 
 - Easy to use
 - MIT License
+- To do (External Configuration)

@@ -124,3 +124,7 @@ configs/*.js
 /dist/dev/
 /dist/wordpress/*
 !/dist/wordpress/*.zip
+
+# WebPack #
+#######
+/dist
