@@ -20,6 +20,6 @@
 
 ## Features
 
-- Easy to use
-- MIT License
-- Webpack
+- ✅ Easy to use
+- ✅ MIT License
+- ✅ Work with: Webpack
