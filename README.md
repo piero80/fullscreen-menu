@@ -23,3 +23,12 @@
 - ✅ Easy to use
 - ✅ MIT License
 - ✅ Work with: Webpack
+
+---
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyleft (c) 2020 Pietro Colangelo <a href="http://twitter.com/pcolangelo80" target="_blank">@piero80</a>.
