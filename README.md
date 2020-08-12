@@ -10,7 +10,7 @@
 
 ## Getting Started
 
-- `git clone https://github.com/piero80/menu_overlay.git`
+- `git clone`
 - `cd menu_overlay`
 - `npm install`
 - Open `index.html` from your preferred browser
