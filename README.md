@@ -14,3 +14,10 @@
 - `cd menu_overlay`
 - `npm install`
 - Open `index.html` from your preferred browser
+
+---
+
+## Features
+
+- Easy to use
+- MIT License
