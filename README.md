@@ -13,7 +13,8 @@
 - `git clone`
 - `cd menu_overlay`
 - `npm install`
-- Open `index.html` from your preferred browser
+- `npm start` for development mode
+- `npm build` for production mode
 
 ---
 
@@ -21,4 +22,4 @@
 
 - Easy to use
 - MIT License
-- To do (External Configuration)
+- Webpack
