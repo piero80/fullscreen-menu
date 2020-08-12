@@ -1,6 +1,9 @@
 .navbar {
   background-color: #000;
 }
+.menu-btn {
+  cursor: pointer;
+}
 .overlay {
   position: fixed;
   top: 0;
