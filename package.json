@@ -1,0 +1,22 @@
+{
+  "name": "menu_overlay",
+  "version": "1.0.0",
+  "description": "Simple fullscreen overlay menu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piero80/menu_overlay.git"
+  },
+  "author": "Pietro Colangelo",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/piero80/menu_overlay/issues"
+  },
+  "homepage": "https://github.com/piero80/menu_overlay#readme",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}

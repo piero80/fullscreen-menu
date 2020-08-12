@@ -8,13 +8,10 @@
 
 ---
 
-## Installation
-
-- All the `code` required to get started
-- Images of what it should look like
-
-### Clone
+## Getting Started
 
 - Clone this repo to your local machine using
   `git clone https://github.com/piero80/menu_overlay.git`
+- `cd menu_overlay`
+- `npm install`
 - Open `index.html` from your preferred browser
