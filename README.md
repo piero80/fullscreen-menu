@@ -17,3 +17,4 @@
 
 - Clone this repo to your local machine using
   `git clone https://github.com/piero80/menu_overlay.git`
+- Open `index.html` from your preferred browser
