@@ -7,8 +7,8 @@
       "sub": null
     },
     {
-      "label": "soluzioni",
-      "url": null,
+      "label": "Soluzioni",
+      "url": "#",
       "sub_title": null,
       "sub": [
         {
@@ -30,13 +30,13 @@
           "sub": null
         },
         {
-          "label": "soluzioni/siti-web",
+          "label": "Siti-web",
           "sub_title": "Crea i tuoi siti web",
           "url": "/soluzioni/gallerie",
           "sub": null
         },
         {
-          "label": "/soluzioni/applicazioni",
+          "label": "Applicazioni",
           "sub_title": "Applicazioni",
           "url": "/soluzioni/applicazioni",
           "sub": null
@@ -44,8 +44,8 @@
       ]
     },
     {
-      "label": "servizi",
-      "url": null,
+      "label": "Servizi",
+      "url": "#",
       "sub_title": null,
       "sub": [
         {
