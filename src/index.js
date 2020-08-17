@@ -6,7 +6,6 @@ $(document).ready(function () {
   getConfig().then((json) => populateMenu(json.menu));
 
   function populateMenu(menu) {
-    console.log(menu);
     const lista = document.getElementById("lista");
     for (let index = 0; index < menu.length; index++) {
       if (menu[index].sub) {
@@ -73,30 +72,16 @@ $(document).ready(function () {
     }
   }
 
-  $(".menu-btn").click(function () {
+  $(".menu-btn").click(() => {
     $(".overlay").fadeToggle(200);
   });
-  $(".remove-icon-mobile").click(function () {
+  $(".remove-icon-mobile").click(() => {
     $(this).siblings().find(".move").removeClass("move");
     $(".overlay").fadeToggle(200);
   });
 
   $("#lista").on("click", ".item-level-1 a", function () {
-    const servizi = $("#servizi");
-    const soluzioni = $("#soluzioni");
-    var value = $(this).text().toLowerCase();
-    if (value === "servizi") {
-      servizi.show();
-      soluzioni.hide();
-    }
-    if (value === "soluzioni") {
-      soluzioni.show();
-      servizi.hide();
-    }
-    $(this).parent().parent().toggleClass("move");
-  });
-  /*
-  $(".menu_mobile .item-level-1 a").on("click", function () {
+    console.log($(this));
     const servizi = $("#servizi");
     const soluzioni = $("#soluzioni");
     var value = $(this).text().toLowerCase();
@@ -111,12 +96,6 @@ $(document).ready(function () {
     $(this).parent().parent().toggleClass("move");
   });
 
-  $(".menu_mobile .item-level-1 .sub .return-level-1 a").on(
-    "click",
-    function () {
-      $(this).parent().parent().parent().parent().removeClass("move");
-    });
-  */
   $("#lista").on("click", ".sub .return-level-1 i", function () {
     $(this).parent().parent().parent().parent().removeClass("move");
   });
