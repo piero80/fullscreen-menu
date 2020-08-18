@@ -70,17 +70,19 @@ function populateMenu(menu) {
     }
   }
 }
+const btn_menu = document.querySelector(".menu-btn");
+const remove_icon_mobile = document.querySelector(".remove-icon-mobile");
 
-$(".menu-btn").click(() => {
+btn_menu.addEventListener("click", () => {
   $(".overlay").fadeToggle(200);
 });
-$(".remove-icon-mobile").click(() => {
+
+remove_icon_mobile.addEventListener("click", () => {
   $(this).siblings().find(".move").removeClass("move");
   $(".overlay").fadeToggle(200);
 });
 
 $("#lista").on("click", ".item-level-1 a", function () {
-  console.log($(this));
   const servizi = $("#servizi");
   const soluzioni = $("#soluzioni");
   var value = $(this).text().toLowerCase();
