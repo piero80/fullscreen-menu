@@ -72,7 +72,26 @@
       "label": "I nostri clienti",
       "url": "i-nostri-clienti",
       "sub_title": null,
-      "sub": null
+      "sub": [
+        {
+          "label": "Comunicazione",
+          "sub_title": "Lorem ipsum dolor sit amet dor",
+          "url": "/servizi/comunicazione",
+          "sub": null
+        },
+        {
+          "label": "Fruizione",
+          "sub_title": "Lorem ipsum dolor sit amet dor",
+          "url": "/servizi/fruizione",
+          "sub": null
+        },
+        {
+          "label": "Formazione e consulenza",
+          "sub_title": "Lorem ipsum dolor sit amet dor",
+          "url": "/servizi/formazione-e-consulenza",
+          "sub": null
+        }
+      ]
     },
     {
       "label": "Lavora con noi",

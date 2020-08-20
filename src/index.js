@@ -82,17 +82,15 @@ remove_icon_mobile.addEventListener("click", () => {
   $(".overlay").fadeToggle(200);
 });
 
-$("#lista").on("click", ".item-level-1 a", function () {
-  const servizi = $("#servizi");
-  const soluzioni = $("#soluzioni");
-  var value = $(this).text().toLowerCase();
-  if (value === "servizi") {
-    servizi.show();
-    soluzioni.hide();
-  }
-  if (value === "soluzioni") {
-    soluzioni.show();
-    servizi.hide();
+$("#lista").on("click", ".item-level-1 a", function (e) {
+  const current = e.target.textContent.toLowerCase();
+  const subs = document.getElementsByClassName("sub");
+  for (let i = 0; i < subs.length; i++) {
+    const sub = subs[i];
+    sub.style.display = "none";
+    if (current === sub.id) {
+      sub.style.display = "block";
+    }
   }
   $(this).parent().parent().toggleClass("move");
 });
