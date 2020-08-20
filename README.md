@@ -21,6 +21,7 @@
 ## Features
 
 - ✅ Easy to use
+- ✅ External Configuration with json
 - ✅ MIT License
 - ✅ Work with: Webpack
 
