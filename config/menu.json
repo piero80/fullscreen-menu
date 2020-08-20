@@ -74,13 +74,13 @@
       "sub_title": null,
       "sub": [
         {
-          "label": "Comunicazione",
+          "label": "Telecom",
           "sub_title": "Lorem ipsum dolor sit amet dor",
           "url": "/servizi/comunicazione",
           "sub": null
         },
         {
-          "label": "Fruizione",
+          "label": "Vodafone",
           "sub_title": "Lorem ipsum dolor sit amet dor",
           "url": "/servizi/fruizione",
           "sub": null
