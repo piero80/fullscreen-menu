@@ -1,4 +1,4 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
   $(".menu-btn").click(function () {
     $(".overlay").fadeToggle(200);
   });
@@ -30,7 +30,6 @@ $(document).ready(function () {
   );
 });
 
-/*
 --------------------OLD HTML---------------------------
 <!DOCTYPE html>
 <html lang="en">
